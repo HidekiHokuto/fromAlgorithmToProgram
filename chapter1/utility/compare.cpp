@@ -1,6 +1,7 @@
 //
 // Created by ShiZheng on 26/06/2017.
 //
+// Used to compare two same type values
 
 #include "compare.hpp"
 

@@ -1,20 +1,10 @@
 //
 // Created by ShiZheng on 25/06/2017.
 //
+// To find the position or the first position of a given value in a given
+// array, if does not exsit, return -1
 
 #include "search.hpp"
-
-/*
-int linearSearch(void *a, int size, int n, void *x, int (*comp)(int *, int *)) {
-    int i = 0;
-    while (i < n) {
-        if (comp ((char *)a + i * size, x) == 0)
-            return i;
-        ++i;
-    }
-    return -1;
-}
-*/
 
 int linearSearch(int *arr, int len, int *x, int(*comp)(int *, int *)) {
     int i = 0;
